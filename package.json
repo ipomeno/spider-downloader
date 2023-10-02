@@ -1,5 +1,6 @@
 {
   "name": "spider-downloader",
+  "type": "module",
   "version": "1.0.0",
   "description": "Experimento NodeJs como exercício de programação. Programa para download de páginas HTML usando recursos de concorrência e SOLID/Clean Code.",
   "main": "index.js",
