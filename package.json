@@ -1,0 +1,25 @@
+{
+  "name": "spider-downloader",
+  "version": "1.0.0",
+  "description": "Experimento NodeJs como exercício de programação. Programa para download de páginas HTML usando recursos de concorrência e SOLID/Clean Code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipomeno/spider-downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipomeno/spider-downloader/issues"
+  },
+  "homepage": "https://github.com/ipomeno/spider-downloader#readme",
+  "dependencies": {
+    "slug": "^8.2.3",
+    "superagent": "^8.1.2"
+  }
+}
