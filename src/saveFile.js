@@ -8,7 +8,7 @@ import path from 'path';
  * @param {function} callback 
  */
 function saveFile(filename, content, callback) {
-  fs.mkdir(path.dirname(filename), (error) => {
+  fs.mkdir(path.dirname(filename), { recursive: true }, (error) => {
     if (error) {
       return callback(error);
     }

@@ -8,6 +8,7 @@ import { saveFile } from "./saveFile.js";
  * @param {funciton} callback 
  */
 function downloadPage(url, filename, callback) {
+  console.log('download', url);
   superagent.get(url).end((error, result) => {
     if (error) {
       return callback(error);

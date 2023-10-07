@@ -1,6 +1,6 @@
 import { spider } from './spider.js';
 
-spider('http://google.com.br', (error, filename, downloaded) => {
+spider('https://olavodecarvalho.org/', 3, (error, filename, downloaded) => {
   if (error) {
     console.log(error);
     return;
